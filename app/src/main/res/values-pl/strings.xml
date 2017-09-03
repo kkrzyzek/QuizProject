@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizProjekt</string>
+    <string name="check_answers">Sprawdź odpowiedzi</string>
+    <string name="correct">poprawnie!</string>
+    <string name="correct_answer_to_question">Poprawna odpowiedź na pytanie\u0020</string>
+    <string name="enter_your_mail">Wprowadź swój adres mail</string>
+    <string name="enter_your_name">Wprowadź swoje imię</string>
+    <string name="hint">\?</string>
+    <string name="is">"\u0020to\u0020"</string>
+    <string name="mail_summary">Wynik na maila</string>
+    <string name="moon">Księżyc</string>
+    <string name="open_map">Otwórz mapę</string>
+    <string name="points">/4 punkty.</string>
+    <string name="question_1">Pytanie 1</string>
+    <string name="question_1_answer_1">Jowisz</string>
+    <string name="question_1_answer_3">Ziemia</string>
+    <string name="question_1_answer_4">Wenus</string>
+    <string name="question_1_hint">Podpowiedź do pytania 1: Kobiety są z ...</string>
+    <string name="question_1_text">Która planeta jest najbliżej Słońca?</string>
+    <string name="question_2">Pytanie 2</string>
+    <string name="question_2_hint">Podpowiedź do pytania 2: Więcej niż jedna odpowiedź jest poprawna.</string>
+    <string name="question_2_text">Które organizacje działają w branży kosmicznej?</string>
+    <string name="question_3">Pytanie 3</string>
+    <string name="question_3_answer_1">Księżyc</string>
+    <string name="question_3_answer_2">Słońce</string>
+    <string name="question_3_answer_3">Kometa</string>
+    <string name="question_3_answer_4">Asteroida</string>
+    <string name="question_3_hint">Podpowiedź do pytania 3: To na pewno nie jest Słońce.</string>
+    <string name="question_3_text">Co przedstawia obrazek poniżej?</string>
+    <string name="question_4">Pytanie 4</string>
+    <string name="question_4_answer_1">Tak</string>
+    <string name="question_4_answer_2">Nie</string>
+    <string name="question_4_hint">Podpowiedź do pytania 4: Tak, oczywiście!</string>
+    <string name="yes">Tak</string>
+    <string name="wow">Łał! Gratulacje!</string>
+    <string name="venus">Wenus</string>
+    <string name="scored">\u0020wynik:\u0020</string>
+    <string name="score_in_quiz">\u0020Wynik w QuizProjekt</string>
+    <string name="question_4_text">Czy rakiety kosmiczne stąd startują?</string>
+    <string name="you_can_do_better">Stać Cię na więcej!</string>
+    <string name="you_did_pretty_good">Nawet ok! Gratulacje!</string>
+    <string name="your_answer_is">Odpowiedziałeś\u0020</string>
+    <string name="your_score_is">Twój wynik to\u0020</string>
+    <string name="wrong">źle!</string>
+</resources>

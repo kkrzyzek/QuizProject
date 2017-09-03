@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/sky">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/name_edittext_view"
+            style="@style/margins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/mail_edittext_view"
+            style="@style/margins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_mail"
+            android:inputType="textWebEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/question_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1" />
+
+        <TextView
+            android:id="@+id/question1_summary"
+            style="@style/question_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/question_1_text" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="64dp"
+                android:layout_height="36dp"
+                android:onClick="hintMessage1"
+                android:text="@string/hint" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/jupiter_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1_answer_1" />
+
+        <CheckBox
+            android:id="@+id/mars_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1_answer_2" />
+
+        <CheckBox
+            android:id="@+id/earth_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1_answer_3" />
+
+        <CheckBox
+            android:id="@+id/venus_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_1_answer_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/question_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2" />
+
+        <TextView
+            android:id="@+id/question2_summary"
+            style="@style/question_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/question_2_text" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="64dp"
+                android:layout_height="36dp"
+                android:onClick="hintMessage2"
+                android:text="@string/hint" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/nasa_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2_answer_1" />
+
+        <CheckBox
+            android:id="@+id/spacex_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2_answer_2" />
+
+        <CheckBox
+            android:id="@+id/nvidia_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2_answer_3" />
+
+        <CheckBox
+            android:id="@+id/astrotech_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_2_answer_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/question_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3" />
+
+        <TextView
+            android:id="@+id/question3_summary"
+            style="@style/question_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:text="@string/question_3_text" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="64dp"
+                android:layout_height="36dp"
+                android:onClick="hintMessage3"
+                android:text="@string/hint" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/moon" />
+
+        <CheckBox
+            android:id="@+id/moon_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3_answer_1" />
+
+        <CheckBox
+            android:id="@+id/sun_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3_answer_2" />
+
+        <CheckBox
+            android:id="@+id/comet_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3_answer_3" />
+
+        <CheckBox
+            android:id="@+id/asteroid_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_3_answer_4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/question_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4" />
+
+        <TextView
+            android:id="@+id/question4_summary"
+            style="@style/question_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/question_4_text" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="64dp"
+                android:layout_height="36dp"
+                android:onClick="hintMessage4"
+                android:text="@string/hint" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="intentForQuestion4"
+            android:text="@string/open_map" />
+
+        <CheckBox
+            android:id="@+id/yes_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4_answer_1" />
+
+        <CheckBox
+            android:id="@+id/no_checkbox_view"
+            style="@style/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_4_answer_2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:onClick="checkAllAnswers"
+                android:text="@string/check_answers" />
+
+            <Button
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:onClick="sendMailAction"
+                android:text="@string/mail_summary" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/summary"
+            android:id="@+id/quiz_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+

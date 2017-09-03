@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <!-- <item name="name">color</item> -->
+    </style>
+
+    <!--Parent Style for left/right margins-->
+    <style name="margins">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <!--Question Title TextView-->
+    <style name="question_title" parent="margins">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#616161</item>
+    </style>
+
+    <!--Question Summary TextView-->
+    <style name="question_summary" parent="margins">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--Questions TextView-->
+    <style name="question">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--Checkboxes View-->
+    <style name="checkbox" parent="margins">
+        <item name="android:paddingLeft">24dp</item>
+    </style>
+
+    <!--Buttons View-->
+    <style name="button" parent="margins">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!--Quiz Summary TextView-->
+    <style name="summary" parent="margins">
+        <item name="android:fontFamily">sans-serif-bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
